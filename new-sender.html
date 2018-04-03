@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
+  <title>Die App | Nuevo Remitente</title>
+
+  <!-- CSS  -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link rel="icon" href="http://elearning.dieusach.cl/imagenes/DIE_Simbol.gif">
+</head>
+<body>
+  <nav class="indigo" role="navigation">
+    <div class="nav-wrapper container">
+      <a id="logo-container" href="sender-list.html" class="brand-logo"><img src="img/logo_ingenieria.png" height="30%" width="30%"></a>
+	<ul class="right">
+	  <li id="userName"></li>
+	</ul>
+    </div>
+  </nav>
+
+  <div class="section no-pad-bot" id="index-banner">
+    <div class="container">
+      <br><br>
+      <h1 class="header center grey-text text-lighten-1">Crear nuevo remitente</h1>
+      <br><br>
+    </div>
+  </div>
+
+<main>
+
+  <div class="container">
+    <div class="section">
+
+      <div class="row">
+        <div class="input-field col l12 s12">
+          <input value="" id="txtPhotoUrl" type="text">
+          <label for="txtPhotoUrl">Foto Url</label>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="input-field col l12 s12">
+          <input value="" id="txtName" type="text">
+          <label for="txtName">Nombre</label>
+        </div>
+
+      <div class="center">
+        <button class="btn waves-effect waves-light center grey" type="submit" id="btnSave">Guardar
+            <i class="material-icons right">save</i>
+        </button>
+      </div>
+
+    </div>
+  </div>
+
+</main>
+
+  <footer class="page-footer indigo">
+    <div class="container">
+      <div class="row">
+        <div class="col l8 s8">
+          <h5 class="white-text">Die App 2017</h5>
+          <p class="grey-text text-lighten-4">Sistema de mensajería del Departamento de Ingeniería Eléctrica de la Universidad de Santiago de Chile.</p>
+        </div>
+        <div class="col l4 s4">
+          <img src="img/usach.png" class="responsive-img">
+        </div>
+      </div>
+    </div>
+    <div class="footer-copyright">
+      <div class="container">
+      Hecho por <a class="orange-text text-lighten-3" href="http://marcer.cl" target="_blank">Marcer</a>
+      </div>
+    </div>
+  </footer>
+
+
+  <!--  Scripts-->
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="js/materialize.js"></script>
+  <script src="js/init.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/3.6.10/firebase.js"></script>
+  <script src="js/new-sender.js"></script>
+
+  </body>
+</html>

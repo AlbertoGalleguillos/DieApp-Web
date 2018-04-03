@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
+  <title>Die App | Mensajes Enviados</title>
+
+  <!-- CSS  -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link rel="icon" href="http://elearning.dieusach.cl/imagenes/DIE_Simbol.gif">
+</head>
+<body>
+  <nav class="indigo" role="navigation">
+    <div class="nav-wrapper container">
+      <a id="logo-container" href="dashboard.html" class="brand-logo"><img src="img/logo_ingenieria.png" height="30%" width="30%"></a>
+	<ul class="right">
+	  <li id="userName"></li>
+	</ul>
+    </div>
+  </nav>
+
+  <div class="section no-pad-bot" id="index-banner">
+    <div class="container">
+      <br><br>
+      <h1 class="header center grey-text text-lighten-1">Mensajes Enviados</h1>
+      <br><br>
+
+    </div>
+  </div>
+
+<main>
+  <div class="container">
+    <div class="section">
+
+      <table class="striped">
+        <thead>
+          <tr>
+              <th data-field="author">Autor</th>
+              <th data-field="title">Título</th>
+              <th data-field="date">Fecha</th>
+              <th data-field="message">Mensaje</th>
+          </tr>
+        </thead>
+
+        <tbody>
+
+        </tbody>
+      </table>
+
+      <br><br><br>
+      <div class="row">
+          <div class="col s12 m12 center">
+            <div id="preloader" class="preloader-wrapper big active">
+              <div class="spinner-layer spinner-blue">
+                <div class="circle-clipper left">
+                  <div class="circle"></div>
+                </div><div class="gap-patch">
+                  <div class="circle"></div>
+                </div><div class="circle-clipper right">
+                  <div class="circle"></div>
+                </div>
+              </div>
+
+              <div class="spinner-layer spinner-red">
+                <div class="circle-clipper left">
+                  <div class="circle"></div>
+                </div><div class="gap-patch">
+                  <div class="circle"></div>
+                </div><div class="circle-clipper right">
+                  <div class="circle"></div>
+                </div>
+              </div>
+
+              <div class="spinner-layer spinner-yellow">
+                <div class="circle-clipper left">
+                  <div class="circle"></div>
+                </div><div class="gap-patch">
+                  <div class="circle"></div>
+                </div><div class="circle-clipper right">
+                  <div class="circle"></div>
+                </div>
+              </div>
+
+              <div class="spinner-layer spinner-green">
+                <div class="circle-clipper left">
+                  <div class="circle"></div>
+                </div><div class="gap-patch">
+                  <div class="circle"></div>
+                </div><div class="circle-clipper right">
+                  <div class="circle"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+    </div>
+  </div>
+</main>
+
+  <footer class="page-footer indigo">
+    <div class="container">
+      <div class="row">
+        <div class="col l8 s8">
+          <h5 class="white-text">Die App 2017</h5>
+          <p class="grey-text text-lighten-4">Sistema de mensajería del Departamento de Ingeniería Eléctrica de la Universidad de Santiago de Chile.</p>
+        </div>
+        <div class="col l4 s4">
+          <img src="img/usach.png" class="responsive-img">
+        </div>
+      </div>
+    </div>
+    <div class="footer-copyright">
+      <div class="container">
+      Hecho por <a class="orange-text text-lighten-3" href="http://marcer.cl">Marcer</a>
+      </div>
+    </div>
+  </footer>
+
+  <!--  Scripts-->
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="js/materialize.js"></script>
+  <script src="js/init.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/3.6.10/firebase.js"></script>
+  <script src="js/message-list.js"></script>
+
+  </body>
+</html>
